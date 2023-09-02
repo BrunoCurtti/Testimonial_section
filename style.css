@@ -1,0 +1,107 @@
+        body{
+            background-color: hsl(210, 46%, 95%);
+            width: 1240px;
+            height:540px;
+            margin-left: 50px;
+            margin-right: 150px;
+            margin-top: 120px;
+            margin-bottom: 120px;
+            font-size: 13px;
+            font-family: 'Barlow Semi Condensed', sans-serif; 
+        }
+
+        .direccion-flex {
+            display: flex;
+            align-items: baseline;
+            justify-content: center;
+        }
+
+        .box4 {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            width: 65%;
+            padding-right: 20px;
+        }
+
+        img {
+            width: 30px;
+            height: 30px;
+            border-radius: 30px;
+            margin-top: 10px;
+            margin-left: 20px;
+            margin-right: -20px; 
+        }
+        
+        .profilePhoto {
+            display:flex;
+            align-items:center;
+            gap: 40px;
+            border-width: 3px;
+            border-color: rgb(155, 152, 152);
+        }
+
+        .opacity-5 {
+            opacity: 0.5;
+        }
+    
+        .opacity-7 {
+            opacity: 0.7;
+        }
+
+        /*Sección 1 - Daniel Cliffort*/
+        #section1 {
+            background-color: hsl(263, 55%, 53%);
+            background-image:url(/img/bg-pattern-quotation.svg);
+            background-repeat: no-repeat;
+            background-position: 80% top;
+            background-size: 105px;
+            width: 60%;
+            padding: 15px;
+            border-radius: 10px;
+            color: white; 
+            box-shadow: 10px 10px 10px hsl(0, 0%, 81%);            
+        }
+
+        /*Sección 2 - Jonathan Walters*/
+        #section2 {
+            background-color: hsl(217, 19%, 35%);
+            width: 30%;
+            padding: 15px;
+            border-radius: 10px;
+            color: white;
+            box-shadow: 10px 10px 10px hsl(0, 0%, 81%);
+        }
+
+        /*Sección 3 - Jeanette Harmon*/
+        #section3 {
+            background-color: hsl(0, 0%, 100%);
+            width: 30%;
+            padding: 15px;
+            border-radius: 10px;
+            color: hsla(0, 0%, 0%, 0.700);
+            box-shadow: 10px 10px 10px hsl(0, 0%, 81%);
+        }
+        
+        /*Sección 4 - Patrick Abrams*/
+        #section4 {
+            background-color: hsl(219, 29%, 14%);
+            width: 60%;
+            padding: 15px;
+            border-radius: 10px;
+            color: white;
+            box-shadow: 10px 10px 10px hsl(0, 0%, 81%);
+        }
+        
+        /*Sección 5 - Kira Whittle*/
+        #section5 {
+            background-color: hsl(0, 0%, 100%);
+            display: flex;
+            flex-direction: column;
+            width: 15%;
+            padding: 15px;
+            border-radius: 10px;
+            color: hsla(0, 0%, 0%, 0.700);
+            box-shadow: 10px 10px 10px hsl(0, 0%, 81%);
+        }
