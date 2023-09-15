@@ -105,3 +105,40 @@
             color: hsla(0, 0%, 0%, 0.700);
             box-shadow: 10px 10px 10px hsl(0, 0%, 81%);
         }
+
+        @media (max-width: 600px) {
+
+            body {
+                width: 100vw;
+                height:100vh;
+            }
+
+            .direccion-flex {
+                display: flex;
+                flex-direction: column;
+                align-content: center;
+                flex-wrap: wrap;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .box4 {
+                width: 90%;
+                box-sizing: border-box;
+            }
+
+            #section1, #section2, #section3, #section4 {
+                width: 100%;
+            }
+
+
+            #section5 {
+                display: flex;
+                width: 86.5%;
+                flex-wrap: wrap;
+                margin-right: auto;
+                margin-top: 40px;
+                margin-bottom: 10rem;
+                box-sizing: border-box;
+            }
+        }
